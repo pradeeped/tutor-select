@@ -1,0 +1,161 @@
+
+@import url("variable.css");
+/* Responsive css for menu starts */
+@media(max-width:767px){
+
+:root {
+
+/*Variable For Font Size*/
+--fontSmall: 14px;
+--font-forContentSub: 15px;
+--font-forContent: 16px;
+--fontfor-average: 25px;
+--fontfor-sub-head-cont: 30px;
+--fontforSubHeading: 24px;
+--fontforHeading: 52px;
+  }
+
+.threeBlock .heading{font-size: 22px}
+.gyanum-logo{font-size: 31px}
+.navbar-login .dropdown-menu{height: auto}
+.custom_responsivecls button.btn.btnSignup, .custom_responsivecls button.btn.cta-primary{padding: 6px 20px}
+.landing-tutor{padding: 96px 0 96px}
+.btnSignup{display: none}
+.stickybg .btnSignup{display: inline-block}
+.stickybg .btnSignup{margin-right: 12px}
+.stickybg .gyanum-logo{display: none}
+.stickybg .navbar-login.justify-content-end{width:100%;text-align:right}
+.navbar-login ul li{margin-left: 0px}
+a.dropdown-toggle.nav-link span.menu_text{display: none}
+.custom_responsivecls .dropdown-toggle.nav-link{text-align: right;padding: 4px 0 0;cursor: pointer}
+.custom_responsivecls{display: inline-flex;flex-direction: inherit}
+li.dropdown.menu-large.nav-item{margin-left: 15px}
+.tutorBigBTN button{width: 100%}
+.navbar-login .dropdown-menu{position: absolute}
+.dropMenu{height: auto;padding: 0;border: none}
+.blogSec{display:none}
+.dropMenu .dropdown-menu{position: static;height: auto}
+
+ul.dropMenu li{display: block}
+.dropMenu li a{line-height: 20px;font-size: 20px;padding: 10px 0 10px 10px}
+.dropMenu li a:hover{padding-left: 10px}
+.dropMenu li a::before{display: none}
+.dropMenu li ul li a{font-size: 16px; padding-left: 20px !important}
+.bannerTxtCont h2:after,
+.carousel-container h2:after,
+.teacher-testimonials h2:after,
+.faq-container h2:after {left: 50%;margin-left: -32px}
+.carousel-container h2{margin-bottom: 60px}
+
+section.carousel-bg .carousel-container .owl-nav .owl-prev,
+section.carousel-bg .carousel-container .owl-nav .owl-next{display: none}
+.carousel-container{padding: 39px 15px}
+.testimonials-container{width: 100%}
+.teacher-testimonials{padding: 47px 0}
+.teacher-testimonials .owl-theme .owl-nav.disabled + .owl-dots{margin-top:10px}
+.tutorBigBTN{margin: 17px 0 40px 0}
+.faq-container{padding: 0}
+.tutorBigBTN button,
+.tutorBigBTN button{width: 274px;font-size: 16px}
+.carousel-container h4{font-size: 22px}
+.carousel-container p{font-size: 16px}
+.testimonialTXT p{text-align: center}
+.faq-container .accordion .card .btn-link{font-size: 14px;position: relative}
+.teacher-testimonials .owl-theme .owl-nav.disabled + .owl-dots{margin-top: 30px}
+.teacher-testimonials h2{margin-bottom: 53px}
+.faq-container h2{margin-bottom: 53px}
+.testimonialTXT{margin-top: 16px}
+.carousel-container .owl-theme .owl-dots{margin-top: 30px}
+
+.fixed-top{padding: 15px} 
+.navbar-login .dropdown-toggle.nav-link i {vertical-align: middle;width: 24px !important;display: inline-block;font-size: 24px}
+.navbar-login .dropdown-toggle.nav-link i.iconG-close {font-size: 16px;text-align: center;    padding-top: 5px}   
+.navbar-login{line-height: 11px}
+
+/*Header font-size*/
+.gyanum-logo {font-size: 27px; padding-bottom: 0}
+.bannerTxtCont h2{font-size: 24px; color: var(--bright-orange); padding-bottom: 0}
+.bannerTxtCont h5{font-size: 16px; color: var(--black)}
+/*Banner font-size*/
+/*.landing-tutor{padding: 100px 0 0;background-size: 100% 147px;}*/
+.landing-tutor {
+  padding: 100px 0 0;
+  background-size: 100% 100%;
+  max-height: 150px;
+}
+.bannerTxtCont{padding-top: 70px;clear: both}
+.bannerTxtCont h2:after{background: var(--bright-orange)}
+/**Three Section*/
+.threeBlock .heading{font-size: 22px}
+.threeBlock span { font-size: 45px}
+.p-4 {padding: 1rem!important;}
+.threeBlock {padding-top:220px}
+.threeBlock .d-block{width: 100%}
+
+/*.carousel*/
+.carousel-img {text-align: center;padding-right: 0}
+
+/* footer style css */
+section.footer-section .col-md-3.col-6{margin-bottom: 27px;}
+.footer-section{padding:31px 0}
+.downloadAppSec{margin-top: 10px;margin-bottom: 14px;}
+h5.h5{font-size: 14px;}
+.downloadAppimg{margin-top: 0px;}
+.downloadAppimg ul{display: flex;}
+.downloadAppimg li:first-child{margin-top: 0px;margin-right: 6px;display: inline-block;}
+.footer-section .downloadAppimg.col-md-3{padding-bottom: 25px;border-bottom: rgba(255, 255, 255, 0.185) solid 1px;margin-bottom: 14px;}
+.footerAddress .gyanumAddress{padding-top: 14px; display: none}
+.footerAddress .socialIcon{display: none}
+section.footer-copyright.navfooter ul{display: none}
+/* footer style css */
+
+/* mobile menu css */
+.navfooter ul li{display: block;padding: 0; border-right: none}
+.navfooter p{display: none}
+.navfooter ul li a{line-height: 28px;font-size: 16px;}
+.navfooter .col-md-10{ padding: 20px 10px; border-top: #ccc solid 1px; border-bottom: #ccc solid 1px;}
+.col-md-2.navsocialS.float-right {padding: 20px 14px;}
+.col-md-2.navsocialS.float-right b{text-transform: uppercase; padding-bottom: 12px;}
+.navfooter .navsocialIcon { display: flex; margin-top: 12px}
+.navfooter .navsocialIcon li a {width: 45px;height: 45px;border-radius: 50%;line-height: 45px;font-size: 22px;}
+.navfooter{border-top: 0;padding-top: 0}
+/* mobile menu css */
+
+
+/* registration tutor css */
+.leftsection-image{display: none}
+.rightsection-form{padding: 20px 20px 20px 17px; width: 100%}
+.registerbtn-main{margin: 0 auto;text-align: center}
+.register-form-width{max-width: 100%}
+.alreadylogin-text{text-align: center}
+.agree-termspolicy{text-align: center}
+/* registration tutor css end */
+
+/* varify otp modal css */
+.varify-modalleftsection{width: 100%}
+.varify-modalrightsection{ display: none}
+.custm-toppaddingmargin{padding: 0 20px 20px 20px}
+.varifymobile-centercontainer{padding: 0}
+.customwidth-varifymobileform{width: 100%;padding: 0}
+/* varify modal css */
+
+/* forget password step 1 css */
+.forgetpass-form-width{max-width: 100%}
+/* ends */
+
+/* forget password step 2 css */
+.customwidth-forgetpass-step2{ max-width: 100%}
+a.headertext-donthaveact{display: none}
+.forgetpass-btnsecstep3{width: 60%;text-align: center;margin: 0 auto}
+.forgetpass-btnsec {text-align: center}
+
+.forgetpass-btnsec .registernow-btn {width: auto}
+/* ends */
+
+
+}
+
+
+
+
+/* Responsive css for menu ends */

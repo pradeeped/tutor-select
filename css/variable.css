@@ -1,0 +1,56 @@
+:root {
+  /*Variable Define for Fonts*/
+  --roboto-black: 'Roboto-Black';
+  --roboto-BlackItalic: 'Roboto-BlackItalic';
+  --roboto-Bold: 'Roboto-Bold';
+  --roboto-BoldItalic: 'Roboto-BoldItalic';
+  --roboto-Light: 'Roboto-Light';
+  --roboto-LightItalic: 'Roboto-LightItalic';
+  --roboto-Medium: 'Roboto-Medium';
+  --roboto-MediumItalic: 'Roboto-MediumItalic';
+  --roboto-Regular: 'Roboto-Regular';
+  --roboto-RegularItalic: 'Roboto-RegularItalic';
+  --roboto-Thin: 'Roboto-Thin';
+  --roboto-ThinItalic: 'Roboto-ThinItalic';
+
+  /*Variable Define for bg-Color, Button bg Color, Text-Color, Text-hover color,*/
+  --bright-orange: #fd5f00;
+  --pale-blue: #d1f4ff;
+  --dark-sky-blue: #36bcfa;
+  --blue:#00a1ff;
+  --ice-blue: #dcf7ff;
+  --wheat: #ffdf79;
+  --black: #000000;
+  --azure: #00a3fd;
+  --ecru: #fafcc9;
+  --eggshell: #eaffd4;
+  --brownish-grey: #757575;
+  --grey:#888888;
+  --white: #fcfcfc;
+  --light-peach: #b6b6b6;
+  --red: #eb0000;
+  --light-peach: #ffd0d0;
+  --very-light-pink: #c1c1c1;
+  --grapefruit: #ff5b59;
+
+  /*Variable For Font Size*/
+  --fontSmall: 14px;
+  --font-forContentSub: 15px;
+  --font-forContent: 16px;
+  --fontfor-average: 25px;
+  --fontfor-sub-head-cont: 30px;
+  --fontforSubHeading: 32px;
+  --fontforHeading: 52px;
+
+  /* size */
+
+  --zero: 0px !important;
+
+  /* font-weight */
+
+  --normalWeight: normal !important;
+
+}
+
+
+

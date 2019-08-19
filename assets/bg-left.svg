@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="437" height="769" viewBox="0 0 437 769">
+    <g fill="none" fill-rule="evenodd" transform="translate(-107 -38)">
+        <circle cx="216" cy="190" r="7" fill="#00A3FD"/>
+        <circle cx="143.5" cy="68.5" r="68.5" fill="#00A3FD"/>
+        <circle cx="88.5" cy="554.5" r="68.5" fill="#00A3FD" opacity=".093"/>
+        <path fill="#FD5F00" d="M533 120.608l-1.608 26.784-20.784-12zM171.152 784.254l.95 22.34 17.492-9.696z"/>
+        <circle cx="534" cy="753" r="10" fill="#FFDF79"/>
+        <path fill="#FFDF79" d="M397.529 56.286l11.734 10.358-12.98 5.245z"/>
+        <text fill="#00A3FD" font-family="ArialMT, Arial" font-size="12">
+            <tspan x="2" y="544">………………………………………</tspan> <tspan x="2" y="547">………………………………………</tspan> <tspan x="2" y="550">………………………………………</tspan> <tspan x="2" y="553">………………………………………</tspan> <tspan x="2" y="556">………………………………………</tspan> <tspan x="2" y="559">………………………………………</tspan> <tspan x="2" y="562">………………………………………</tspan>
+        </text>
+        <text fill="#000" font-family="ArialMT, Arial" font-size="9">
+            <tspan x="0" y="569">………………………………………</tspan> <tspan x="0" y="572">………………………………………</tspan> <tspan x="0" y="575">………………………………………</tspan> <tspan x="0" y="578">………………………………………</tspan> <tspan x="0" y="581">………………………………………</tspan> <tspan x="0" y="584">………………………………………</tspan> <tspan x="0" y="587">………………………………………</tspan>
+        </text>
+    </g>
+</svg>

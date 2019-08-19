@@ -1,0 +1,255 @@
+/*CSS @import for Globle USE*/
+@import url("fonts.css");
+@import url("variable.css");
+/*CSS @import for Globle USE END*/
+
+/*Global CSS START*/
+body{font-size: var(--font-forContent); font-family: var(--roboto-light); background: #fcfcfc; padding: 0; margin: 0; font-weight: normal}
+
+h1,h2,h3,h4,h5,h6{font-family:inherit;margin: 0; padding: 0; font-weight: normal}
+h1{font-family:var(--roboto-Bold); font-size: var(--fontforHeading); font-weight: bold;  color: var(--black)}
+a, a:hover, a:active, a:visited{text-decoration: none; color: var(--white)}
+p{margin: 0; padding: 0}
+ul, ol{list-style: none; margin: 0; padding: 0}
+button, button:focus{outline: none}
+/*Css for bootstrap*/
+.container{max-width: 1260px}
+.container-fluid{padding: 0}
+
+/*Global Button*/
+.btn{border-radius: 40px; padding: 10px 35px; font-size: 16px; font-weight: normal; font-family: var(--roboto-regular); line-height: normal}
+.cta-default{border: 1px solid #e4e4e4; background: var(--white); color: var(--black)}
+.cta-primary{background: var(--bright-orange); color: var(--white); border-color: var(--bright-orange);}
+.cta-primary:hover {background: var(--bright-orange); color: var(--white);border-color: var(--bright-orange);}
+.btn.focus, .btn:focus{box-shadow: none}
+.animated{animation-duration: .5s !important}
+.p-lft-0{padding-left: 0}
+.p-rgt-0{padding-right: 0}
+.inputField{ background: var(--white); border: #e2e2e2 solid 1px; box-shadow: rgba(0, 0, 0, 0.05) 0 2px 0; padding: 10px 0 10px 19px;}
+/*Global CSS END*/
+
+
+/*CSS start for landing page*/
+/*CSS for Header component*/
+/*CSS For Full Width Navigation*/
+.gyanum-logo{font-size: 33px;font-weight: bold;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;color: var(--white);padding: 0 0 10px;}
+.menu-large {position: static !important}
+.navbar-login .dropdown-menu{min-width: 100%; height: 100vh;border-radius: 0;border-left: 0;border-right: 0;top: 95%}
+.sticky {background-color: #fff; transition: all .6s}
+.stickybg {background-color: #fff; transition: all .6s}
+.sticky .gyanum-logo, .stickybg .gyanum-logo{color: var(--black);transition: all .6s}
+.sticky .navbar-login .dropdown-toggle.nav-link, .stickybg .navbar-login .dropdown-toggle.nav-link{color: var(--black);transition: all .6s}
+.dropdown-toggle::after{display: none}
+.navbar-login .dropdown-toggle.nav-link i{vertical-align: middle;width: 16px !important;display: inline-block;}
+.navbar-login .dropdown-toggle.nav-link i.iconG-close{font-size: 12px}
+.navbar-login ul li{margin-left: 20px}
+.btnSamewth{width: 115px; padding-left: 0; padding-right: 0}
+
+.dropright:hover>.dropdown-menu {display: block;transition: all .6s}
+.dropright>.dropdown-toggle:active {/*Without this, clicking will make it sticky*/ pointer-events: none}
+.dropright{padding-right: 0}
+.dropright .dropdown-menu{left: 100%;top: 10px;min-width: 55%;border-top: 0; background: transparent}
+.dropMenu .dropdown-menu a{color: var(--black)}
+.dropMenu li{margin-left: 0 !important}
+.dropMenu li a{color: var(--black);  padding: 15px 0 15px 0; line-height: 24px; font-size: 30px; color: #b6b6b6;transition: all .6s; display: block;transition: padding-left .5s;  transition: all .5s}
+.dropMenu li a:hover{color: #ff5e00; padding-left: 25px; background-color: transparent}
+.dropMenu li a::before{content: ""; position: absolute; width: 0px; height: 3px; left: 0; top: 25px; background: #ff5e00; transition: all .5s}
+.dropMenu li a:hover::before{width: 20px;}
+.dropMenu li ul li a{color: var(--black); padding-left: 25px; padding-top: 5px; padding-bottom: 0; display: block; text-transform: uppercase; font-size: 16px;}
+.dropMenu li ul li a::before{display: none}
+.dropMenu .dropdown-toggle::after{display: none}
+.navbar-expand-md .navbar-nav .dropdown-menu{padding-top: 0}
+.dropMenu {height:calc(100vh - 160px);border-right: 1px solid #e4e4e4;padding-left: 0;padding-top: 20px}
+.blogSec{height: calc(100vh - 160px);border-left: 1px solid #e4e4e4;padding-top: 20px}
+.blogSec h4{margin-bottom: 15px}
+.blogSec .blogBox{background: #d8d8d8; border: 1px solid #979797; width: 100%; height: 200px} 
+.navfooter{border-top: 1px solid #e4e4e4; background: var(--white); padding-top: 15px; min-height: 160px}
+.navfooter ul li{display: inline-block; margin: 0 0 0 0; border-right: 1px solid #000; padding: 0 12px 3px 8px;line-height: 12px;}
+.navfooter ul li a{font-size: 16px; color: var(--black);}
+.navfooter ul li:first-child{padding-left: 0;}
+.navfooter ul li:last-child{border-right: 0;}
+.navfooter .navsocialIcon{display: block}
+.navfooter .navsocialS{max-width: inherit}
+.navfooter .navsocialIcon li{border: 0; margin: 5px; padding: 0}
+.navfooter .navsocialIcon li a{border: 0; background: var(--black); width: 30px; height: 30px; border-radius: 50%; line-height: 30px; display: inline-block;color: var(--white); text-align: center; font-size: 15px}
+
+/*Landing Banner CSS*/
+.landing-tutor{background: url(../assets/landing-banner.jpg) no-repeat top center/cover; padding: 183px 0 140px; position: relative;display: flex}
+.bannerTxtCont h2{color: var(--white); font-size: 40px; font-weight: bold; position: relative;}
+.bannerTxtCont h2:after{content: ""; position: absolute; width: 58px; height: 2px; background: #ffffff; bottom: -15px; left: 47%}
+.bannerTxtCont h5{font-size: 22px; color: var(--white); margin: 40px 0 30px}
+.bannerTxtCont button{font-family: var(--roboto-bold);}
+
+.landing-tutor::before {content: "";position: absolute;width: 100%;height: 100%;background: rgba(0,0,0,.2);top: 0;left: 0}
+.landing-tutor::after {content: "";position: absolute;width: 100%;height: 100%;background: url(../assets/BG_V1.png) repeat left top;top: 0;left: 0}
+.landing-tutor > * {z-index: 100;}
+/*CSS for Header End*/
+
+/*Three block*/
+.threeBlock {padding-top: 90px}
+.threeBlock span{font-size: 60px}
+.threeBlock .heading{font-size: 29px; font-weight: bold}
+.threeBlock p{margin-top: 17px}
+/*Three block END*/
+
+/*carousel Section Start*/
+.carousel-container{background: #fff; background-size: 88% 105%; border: 1px solid #e6e6e6; border-radius: 6px; padding: 60px 40px; margin-top: 40px}
+.carousel-img{text-align: right; padding-right: 70px}
+.carousel-img img{width: auto !important; display: inline-block !important}
+.carousel-container h2{margin-bottom: 90px; font-size: var(--fontforSubHeading); font-weight: bold; position: relative; text-align: center}
+.carousel-container h2:after{content: ""; position: absolute; width: 58px; height: 2px; background: #000; bottom: -15px; left: 47%}
+
+.carousel-container .step-txt{background: #ffdf79; padding: 2px 10px; border-radius: 2px;  color: #ac8810; font-size: 11px; text-transform: uppercase; font-weight: bold}
+.carousel-container h4{font-size: 30px; font-weight: bold; margin-top: 10px; margin-bottom: 10px}
+.carousel-container p{font-size: 18px}
+.carousel-container .owl-carousel .owl-nav .owl-prev, .carousel-container .owl-carousel .owl-nav .owl-next{background: var(--white); width: 45px; height: 45px; border-radius: 50%; line-height: 45px; display: inline-block;color: #fd5f00; text-align: center; font-size: 28px;position: absolute;top: 0; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24); margin: 0;outline: none}
+.carousel-container .owl-carousel .owl-nav .owl-prev:hover, .carousel-container .owl-carousel .owl-nav .owl-next:hover{color: #fd5f00;background: var(--white)}
+.carousel-container .owl-carousel .owl-nav .owl-prev{left: 0;}
+.carousel-container .owl-carousel .owl-nav .owl-next{right: 0;}
+.carousel-container .owl-theme .owl-dots .owl-dot.active span{background: #2196f3; border-color: #2196f3}
+.carousel-container .owl-theme .owl-dots .owl-dot span{background: #eaeaea; border-color: #d8d8d8; width: 14px; height: 14px; margin: 5px 3px}
+.carousel-container .owl-theme .owl-dots .owl-dot span:hover, .carousel-container .owl-theme .owl-dots .owl-dot:hover span{background: #2196f3;}
+.carousel-container .owl-theme .owl-dots{margin-top: 20px}
+/*carousel Section End*/
+
+/*Landing Page register Button*/
+.tutorBigBTN{text-align: center; margin: 65px 0}
+.tutorBigBTN button{background: var(--bright-orange); width: 325px; padding: 15px 0; text-align: center; border-radius: 4px; color: var(--white); font-family: var(--roboto-bold); font-size: 20px; }
+/*Landing Page register Button END*/
+
+/*Teacher testimonials*/
+.teacher-testimonials{background: #fff;border-top: 1px solid #e6e6e6; border-bottom: 1px solid #e6e6e6;padding: 60px 40px; margin-top: 40px}
+.teacher-testimonials h2{margin-bottom: 90px; font-size: var(--fontforSubHeading); font-weight: bold; position: relative; text-align: center}
+.teacher-testimonials h2:after{content: ""; position: absolute; width: 58px; height: 2px; background: #000; bottom: -15px; left: 47%}
+.teacher-testimonials .owl-carousel .owl-nav span{position: absolute;top: -5px;left: 0;right: 0;bottom: 0}
+.teacher-testimonials .owl-theme .owl-dots .owl-dot.active span{background: #fd5f00; border-color: #fd5f00}
+.teacher-testimonials .owl-theme .owl-dots .owl-dot span{background: #000; border-color: #000; width: 20px; height: 2px; margin: 5px 3px; border-radius: 0px}
+.teacher-testimonials .owl-theme .owl-dots .owl-dot span:hover, .teacher-testimonials .owl-theme .owl-dots .owl-dot:hover span{background: #fd5f00;}
+.teacher-testimonials .owl-theme .owl-nav.disabled + .owl-dots{margin-top: 80px}
+
+.teacherPic img{width: 107px !important; height: 107px; display: inline-block !important}
+.testimonial-img .teacherName{font-weight: bold; font-size: 18px; margin-top: 15px}
+.testimonials-container{width: 75%; margin: auto;}
+.testimonial-img{text-align: center}
+.testimonial-img span{display: block;}
+
+.testimonialTXT{border-radius: 8px;border: solid 1px #ebebeb;background-color: #fefefe; padding: 20px}
+.testimonials-container .row{margin-right: 0;margin-left: 0}
+/*Teacher testimonials ENd*/
+
+
+
+/*FAQ CSS*/
+.faq-container{padding: 60px 40px 0; margin-top: 40px}
+.faq-container h2{margin-bottom: 90px; font-size: var(--fontforSubHeading); font-family: var(--roboto-Bold); position: relative; text-align: center}
+.faq-container h2:after{content: ""; position: absolute; width: 58px; height: 2px; background: #000; bottom: -15px; left: 47%}
+.faq-container .accordion .card{border: 1px solid #dddddd; border-radius: 0px; margin-bottom: 20px; padding: 20px}
+.faq-container .accordion .card .btn-link{text-align: left; background: transparent; border: none; cursor: pointer; color: var(--black); font-size: 16px; text-decoration: none; font-weight: bold; padding-right: 20px; position: relative;    padding-left: 20px}
+.faq-container .accordion .card .btn-link:after {font-family: 'FontAwesome';content: "\f107";float: right;font-size: 22px;color: var(--bright-orange);position: absolute;top: -2px;right: 0}
+.faq-container .accordion .card .btn-link.collapsed:after {content: "\f105"}
+
+.faq-container .accordion .card .btn-link span{position: absolute;left: 0}
+.faq-container .accordion .card .card-body {padding: 15px 0 15px 20px}
+/*FAQ CSS END*/
+
+/*Footer Section*/
+.footer-section {background-color: var(--black); padding: 40px 0}
+.footer-section h6{font-size: 14px; text-transform: uppercase; font-weight: bold;color: #fff; margin-bottom: 5px}
+.footer-section ul li a{color:#7a7a7a; font-size: 14px }
+.footer-section .input-group>.input-group-prepend>.input-group-text.countryCode{background: var(--white);border-radius: 4px 0 0 4px; cursor: text; color: #7a7a7a}
+.footer-section .input-group>.input-group-prepend>.input-group-text{border-radius: 0px 4px 4px 0; cursor: pointer; background: rgba(255, 255, 255, 0.2); border-color: rgba(255, 255, 255, 0.05); color: var(--white)}
+h5.h5{font-size: 16px; color: var(--white); text-transform: uppercase; font-weight: normal}
+.downloadAppSec, .downloadAppimg{margin-top: 60px}
+.downloadAppSec p{color: #7a7a7a; font-size: 14px; font-weight: normal; margin-top: 5px}
+.downloadAppimg li:first-child{margin-top: 27px; margin-bottom: 5px}
+.footerAddress .gyanum-logo{font-size: 26px; }
+.gyanumSupport span{font-size: 18px; color: #fff}
+.gyanumSupport p{color: #7a7a7a; font-size: 14px;}
+.gyanumSupport p a{color: #7a7a7a}
+.gyanumAddress span{font-size: 14px; color: #fff}
+.gyanumAddress p{color: #7a7a7a; font-size: 14px;}
+.footer-section .socialIcon{display: block}
+.footer-section .socialIcon{max-width: inherit}
+.footer-section .socialIcon li{border: 0; margin: 2px; padding: 0;display: inline-block}
+.footer-section .socialIcon li a{border: 0; background: var(--brownish-grey); width: 20px; height: 20px; border-radius: 50%; line-height: 20px; display: inline-block;color: var(--black); text-align: center; font-size: 13px}
+.footer-copyright.navfooter{border-top: 1px solid #7a7a7a;background: var(--black);padding-top: 15px;padding-bottom: 15px; min-height: inherit; color: #7a7a7a;}
+.footer-copyright.navfooter ul li a{color: #7a7a7a}
+.footer-copyright.navfooter ul li{border-right: 1px solid #7a7a7a}
+.footer-copyright.navfooter ul li:last-child{border: 0px}
+/*Footer Section END*/
+
+
+/*Back to top CSS*/
+.backtotop{width: 46px;height: 46px;background-color: var(--bright-orange); border-radius: 50%; position: fixed; bottom: 40px; right: 60px; z-index: 999; font-size: 14px; color: var(--white); text-transform: uppercase; text-align: center; padding: 2px 5px; line-height: 8px; opacity: 0; cursor: pointer; transition: all .5s}
+.backtotop i{display: block; font-size: 22px}
+.backtotop.backtoshow{opacity: 1;}
+/*Back to top CSS END*/
+
+/*CSS END for landing page*/
+
+/* registration page css start */
+.landing-tutor.registration-tutor-menu::after, .landing-tutor.registration-tutor-menu::before {display: none} 
+.registration-tutor-menu{background: none;padding: 80px 0 20px 0}
+.registration-tutorsection{background: var(--white);padding: 20px 0;width: 100%}
+.gyanum-logo.registration-logo{color: var(--black);vertical-align: middle}
+.dropdown-toggle.nav-link.customregistration-menuicon{color: var(--black)}
+
+/* left image and heading section */
+.leftsection-image{width: 35%;position: fixed;left: 0;top: 0;background: url(../assets/bg-left.svg) left top no-repeat;height: 100vh;max-height: 100%;border-right: #e2e2e2 solid 1px;padding: 181px 0 0 0;background-size: contain;text-align: center}
+.heading-joinboard{font-family: var(--roboto-Bold);font-size: var(--fontforHeading)}
+/* left image and heading section */
+
+/* right heading and form section start */
+.rightsection-form{padding-left: 40%}
+.registeras-tutor{font-family: var(--roboto-Bold);font-size: var(--fontforSubHeading);position: relative;margin-bottom: 40px}
+.registeras-tutor:after{content: "";position: absolute;width: 80px;max-width: 80px;height: 2px;background: var(--black);bottom: -12px;left: 0}
+.register-form-width{width: 100%}
+.registration-label{font-weight: bold;font-size: var(--font-forContent);margin-bottom: .9rem}
+.register-formgroup-m{margin-bottom:30px}
+.registernow-btn{padding: 12px 60px;margin-bottom: 26px}
+.registerbtn-main{text-align: left}
+.alreadylogin-text{font-size: 16px;letter-spacing: 0;color: var(--black);margin-bottom: 40px}
+.alreadylogin-text .link-cls, .agree-termspolicy .link-cls{color: var(--blue)}
+.alreadylogin-text .link-cls:hover, .agree-termspolicy .link-cls:hover{color: var(--dark-sky-blue)}
+.agree-termspolicy{color: var(--grey);font-size: var(--fontSmall)}
+/* right heading and form section start */
+
+/* varify mobile number pop up start */
+.custom-modalwidth{max-width: 766px}
+/* left side modal */
+.border-none{border: none}
+.varify-mobilenumber-heading{font-family: var(--roboto-Bold);font-size: var(--fontforSubHeading)}
+.otphassent-text{color:var(--black);opacity: 0.35;font-size: var(--font-forContentSub);padding-top: 6px;padding-bottom: 23px}
+.custm-toppaddingmargin{padding-top: var(--zero);margin: var(--zero);padding-bottom: 30px}
+.input-m-top{margin-top: 17px}
+.varifymobile-centercontainer{padding: 0 20px}
+.customwidth-varifymobileform{width: 82%}
+.varify-modalleftsection{width: 60%}
+.customwidth-modalsubmit{width: 100%}
+.label-widthfull{width: 100%}
+.modal-img-close{opacity: 1}
+.font-weight-normal{font-weight: var(--normalWeight);font-size: var(--fontSmall)}
+.varifymodaltext-mb{margin-bottom: 27px}
+.otptext{font-size: var(--fontSmall)}
+/* left side modal */
+
+/* modal right section */
+.varify-modalrightsection{ width: 40%}
+/* modal right section end */
+
+/* varify mobile number popup end */
+
+/* registration page css end */
+
+/*Forgot Password CSS*/
+.headerbtn-hide{display: none}
+a.headertext-donthaveact{ color: var(--black);line-height: 40px}
+a.headertext-donthaveact:hover:hover{color: var(--black)}
+.forgetpass-btnsec{width: 100%}
+.forgetpass-form-width{width: 100%}
+.leftarrow-beforelogo{line-height: 30px;margin-right: 13px}
+.customwidth-forgetpass-step2{width: 100%}
+.forgetpassword-step2-text-mb{margin-bottom: 20px}
+.otp-bottomtext{font-size: var(--fontSmall);text-align: center}
+.forgetpass-btnsec .registernow-btn{width: 100%}
+/*FOrgot Password CSS END*/
