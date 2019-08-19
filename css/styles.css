@@ -264,6 +264,14 @@ a.headertext-donthaveact:hover:hover{color: var(--black)}
     display: none;
 }
 
+.main-section{
+    padding: 10px 0 100px 0;
+}
+section.landing-tutor.registration-tutor-menu.createprofile-stepcls{
+    padding: 0px;
+    height:66px;
+}
+
 .gredient-text-width{
     width: 70%;
     margin: 0 auto;
