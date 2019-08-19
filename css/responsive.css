@@ -67,7 +67,7 @@ section.carousel-bg .carousel-container .owl-nav .owl-next{display: none}
 .testimonialTXT{margin-top: 16px}
 .carousel-container .owl-theme .owl-dots{margin-top: 30px}
 
-.fixed-top{padding: 15px} 
+.fixed-top{padding: 15px;box-shadow: rgba(0, 0, 0, 0.13) 0 2px 8px;} 
 .navbar-login .dropdown-toggle.nav-link i {vertical-align: middle;width: 24px !important;display: inline-block;font-size: 24px}
 .navbar-login .dropdown-toggle.nav-link i.iconG-close {font-size: 16px;text-align: center;    padding-top: 5px}   
 .navbar-login{line-height: 11px}
