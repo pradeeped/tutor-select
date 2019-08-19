@@ -35,6 +35,7 @@ li.dropdown.menu-large.nav-item{margin-left: 15px}
 .dropMenu{height: auto;padding: 0;border: none}
 .blogSec{display:none}
 .dropMenu .dropdown-menu{position: static;height: auto}
+.dropMenu li.active a{padding-left: 10px; font-weight: bold;}
 
 ul.dropMenu li{display: block}
 .dropMenu li a{line-height: 20px;font-size: 20px;padding: 10px 0 10px 10px}
@@ -126,7 +127,7 @@ section.footer-copyright.navfooter ul{display: none}
 .leftsection-image{display: none}
 .rightsection-form{padding: 20px 20px 20px 17px; width: 100%}
 .registerbtn-main{margin: 0 auto;text-align: center}
-.register-form-width{max-width: 100%}
+.register-form-width{max-width: 100%; width: 100%}
 .alreadylogin-text{text-align: center}
 .agree-termspolicy{text-align: center}
 /* registration tutor css end */

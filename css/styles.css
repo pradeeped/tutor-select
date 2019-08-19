@@ -51,12 +51,14 @@ button, button:focus{outline: none}
 .dropright .dropdown-menu{left: 100%;top: 10px;min-width: 55%;border-top: 0; background: transparent}
 .dropMenu .dropdown-menu a{color: var(--black)}
 .dropMenu li{margin-left: 0 !important}
-.dropMenu li a{color: var(--black);  padding: 15px 0 15px 0; line-height: 24px; font-size: 30px; color: #b6b6b6;transition: all .6s; display: block;transition: padding-left .5s;  transition: all .5s}
-.dropMenu li a:hover{color: #ff5e00; padding-left: 25px; background-color: transparent}
+.dropMenu li a{color: var(--black);  padding: 15px 0 15px 0; line-height: 24px; font-size: 30px; color: #b6b6b6;transition: all .6s; display: block;  transition: all .5s}
+.dropMenu li a:hover{color: #ff5e00; padding-left: 25px; font-weight: bold; background-color: transparent}
 .dropMenu li a::before{content: ""; position: absolute; width: 0px; height: 3px; left: 0; top: 25px; background: #ff5e00; transition: all .5s}
-.dropMenu li a:hover::before{width: 20px;}
-.dropMenu li ul li a{color: var(--black); padding-left: 25px; padding-top: 5px; padding-bottom: 0; display: block; text-transform: uppercase; font-size: 16px;}
-.dropMenu li ul li a::before{display: none}
+.dropMenu li a:hover::before, .dropMenu li.active a::before{width: 20px;}
+.dropMenu li ul.dropdown-menu li a{color: var(--black); padding-left: 25px; padding-top: 5px; padding-bottom: 0; display: block; text-transform: uppercase; font-size: 16px; font-weight: normal}
+.dropMenu li ul.dropdown-menu li a:hover{font-weight: normal;color: #ff5e00}
+.dropMenu li.active a{color: #ff5e00; padding-left: 25px; font-weight: bold; background-color: transparent}
+.dropMenu li ul.dropdown-menu li a::before{display: none}
 .dropMenu .dropdown-toggle::after{display: none}
 .navbar-expand-md .navbar-nav .dropdown-menu{padding-top: 0}
 .dropMenu {height:calc(100vh - 160px);border-right: 1px solid #e4e4e4;padding-left: 0;padding-top: 20px}
@@ -200,10 +202,10 @@ h5.h5{font-size: 16px; color: var(--white); text-transform: uppercase; font-weig
 /* left image and heading section */
 
 /* right heading and form section start */
-.rightsection-form{padding-left: 40%}
+.rightsection-form{padding-left: 37%}
 .registeras-tutor{font-family: var(--roboto-Bold);font-size: var(--fontforSubHeading);position: relative;margin-bottom: 40px}
 .registeras-tutor:after{content: "";position: absolute;width: 80px;max-width: 80px;height: 2px;background: var(--black);bottom: -12px;left: 0}
-.register-form-width{width: 100%}
+.register-form-width{width: 75%}
 .registration-label{font-weight: bold;font-size: var(--font-forContent);margin-bottom: .9rem}
 .register-formgroup-m{margin-bottom:30px}
 .registernow-btn{padding: 12px 60px;margin-bottom: 26px}
@@ -212,6 +214,8 @@ h5.h5{font-size: 16px; color: var(--white); text-transform: uppercase; font-weig
 .alreadylogin-text .link-cls, .agree-termspolicy .link-cls{color: var(--blue)}
 .alreadylogin-text .link-cls:hover, .agree-termspolicy .link-cls:hover{color: var(--dark-sky-blue)}
 .agree-termspolicy{color: var(--grey);font-size: var(--fontSmall)}
+.tutorImg {width: 300px;margin: 10px auto 0}
+.tutorImg img {width: 100%;display: block}
 /* right heading and form section start */
 
 /* varify mobile number pop up start */
