@@ -232,6 +232,8 @@ h5.h5{font-size: 16px; color: var(--white); text-transform: uppercase; font-weig
 .font-weight-normal{font-weight: var(--normalWeight);font-size: var(--fontSmall)}
 .varifymodaltext-mb{margin-bottom: 27px}
 .otptext{font-size: var(--fontSmall)}
+label.registration-label.label-widthfull a.link-cls.font-weight-normal {color: var(--blue);text-decoration: underline;}
+span.text-right.otptext a.link-cls.font-weight-normal {color: var(--blue);text-decoration: underline;}
 /* left side modal */
 
 /* modal right section */

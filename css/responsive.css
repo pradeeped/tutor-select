@@ -137,6 +137,8 @@ section.footer-copyright.navfooter ul{display: none}
 .custm-toppaddingmargin{padding: 0 20px 20px 20px}
 .varifymobile-centercontainer{padding: 0}
 .customwidth-varifymobileform{width: 100%;padding: 0}
+label.registration-label.label-widthfull a.link-cls.font-weight-normal {color: var(--blue);text-decoration: underline;}
+span.text-right.otptext a.link-cls.font-weight-normal {color: var(--blue);text-decoration: underline;}
 /* varify modal css */
 
 /* forget password step 1 css */
