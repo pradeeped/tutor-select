@@ -216,6 +216,7 @@ h5.h5{font-size: 16px; color: var(--white); text-transform: uppercase; font-weig
 
 /* varify mobile number pop up start */
 .custom-modalwidth{max-width: 766px}
+.custom-modalwidth .modal-header .close {padding: 10px 20px}
 /* left side modal */
 .border-none{border: none}
 .varify-mobilenumber-heading{font-family: var(--roboto-Bold);font-size: var(--fontforSubHeading)}
