@@ -228,7 +228,7 @@ h5.h5{font-size: 16px; color: var(--white); text-transform: uppercase; font-weig
 .varify-modalleftsection{width: 60%}
 .customwidth-modalsubmit{width: 100%}
 .label-widthfull{width: 100%}
-.modal-img-close{opacity: 1}
+.modal-img-close{opacity: 1; margin-right: 12px; margin-top: 12px;}
 .font-weight-normal{font-weight: var(--normalWeight);font-size: var(--fontSmall)}
 .varifymodaltext-mb{margin-bottom: 27px}
 .otptext{font-size: var(--fontSmall)}
