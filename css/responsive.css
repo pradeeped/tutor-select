@@ -4,7 +4,6 @@
 @media(max-width:767px){
 
 :root {
-
 /*Variable For Font Size*/
 --fontSmall: 14px;
 --font-forContentSub: 15px;
@@ -13,7 +12,7 @@
 --fontfor-sub-head-cont: 30px;
 --fontforSubHeading: 24px;
 --fontforHeading: 52px;
-  }
+}
 
 .threeBlock .heading{font-size: 22px}
 .gyanum-logo{font-size: 31px}
@@ -67,9 +66,9 @@ section.carousel-bg .carousel-container .owl-nav .owl-next{display: none}
 .testimonialTXT{margin-top: 16px}
 .carousel-container .owl-theme .owl-dots{margin-top: 30px}
 
-.fixed-top{padding: 15px;box-shadow: rgba(0, 0, 0, 0.13) 0 2px 8px;} 
+.fixed-top{padding: 15px;box-shadow: rgba(0, 0, 0, 0.13) 0 2px 8px; background: #fff;} 
 .navbar-login .dropdown-toggle.nav-link i {vertical-align: middle;width: 24px !important;display: inline-block;font-size: 24px}
-.navbar-login .dropdown-toggle.nav-link i.iconG-close {font-size: 16px;text-align: center;    padding-top: 5px}   
+.navbar-login .dropdown-toggle.nav-link i.iconG-close {font-size: 16px;text-align: center;padding-top: 5px}   
 .navbar-login{line-height: 11px}
 
 /*Header font-size*/

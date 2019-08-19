@@ -256,3 +256,25 @@ a.headertext-donthaveact:hover:hover{color: var(--black)}
 .otp-bottomtext{font-size: var(--fontSmall);text-align: center}
 .forgetpass-btnsec .registernow-btn{width: 100%}
 /*FOrgot Password CSS END*/
+
+
+
+/* create profile step 1 start */
+.display-none-global{
+    display: none;
+}
+
+.gredient-text-width{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.headingwith-gredient-left {
+    background: linear-gradient(106deg, #fb5300, #ffbc1d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--roboto-Bold);
+    font-size: 39px;
+}
+/* create profile step 1 end */
