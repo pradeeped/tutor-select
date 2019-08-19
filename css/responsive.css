@@ -132,7 +132,7 @@ section.footer-copyright.navfooter ul{display: none}
 /* registration tutor css end */
 
 /* varify otp modal css */
-.varify-modalleftsection{width: 100%}
+.varify-modalleftsection{width: 100%; padding: 45px 0 0 0;}
 .varify-modalrightsection{ display: none}
 .custm-toppaddingmargin{padding: 0 20px 20px 20px}
 .varifymobile-centercontainer{padding: 0}

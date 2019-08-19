@@ -221,21 +221,21 @@ h5.h5{font-size: 16px; color: var(--white); text-transform: uppercase; font-weig
 .border-none{border: none}
 .varify-mobilenumber-heading{font-family: var(--roboto-Bold);font-size: var(--fontforSubHeading)}
 .otphassent-text{color:var(--black);opacity: 0.35;font-size: var(--font-forContentSub);padding-top: 6px;padding-bottom: 23px}
-.custm-toppaddingmargin{padding-top: var(--zero);margin: var(--zero);padding-bottom: 30px}
+.custm-toppaddingmargin{margin: var(--zero);padding: 0;}
 .input-m-top{margin-top: 17px}
 .varifymobile-centercontainer{padding: 0 20px}
 .customwidth-varifymobileform{width: 82%}
-.varify-modalleftsection{width: 60%}
+.varify-modalleftsection{width: 60%;padding: 60px 1rem}
 .customwidth-modalsubmit{width: 100%}
 .label-widthfull{width: 100%}
-.modal-img-close{opacity: 1; margin-right: 12px; margin-top: 12px;}
+.modal-img-close{opacity: 1; margin-right: 22px; margin-top: 12px;position: absolute;right: 0;top: 0}
 .font-weight-normal{font-weight: var(--normalWeight);font-size: var(--fontSmall)}
 .varifymodaltext-mb{margin-bottom: 27px}
 .otptext{font-size: var(--fontSmall)}
 /* left side modal */
 
 /* modal right section */
-.varify-modalrightsection{ width: 40%}
+.varify-modalrightsection{ width: 40%;background: #f7f7f7; padding: 60px 1rem}
 /* modal right section end */
 
 /* varify mobile number popup end */
