@@ -4,14 +4,14 @@
   --roboto-BlackItalic: 'Roboto-BlackItalic';
   --roboto-Bold: 'Roboto-Bold';
   --roboto-BoldItalic: 'Roboto-BoldItalic';
-  --roboto-Light: 'Roboto-Light';
-  --roboto-LightItalic: 'Roboto-LightItalic';
-  --roboto-Medium: 'Roboto-Medium';
-  --roboto-MediumItalic: 'Roboto-MediumItalic';
-  --roboto-Regular: 'Roboto-Regular';
-  --roboto-RegularItalic: 'Roboto-RegularItalic';
-  --roboto-Thin: 'Roboto-Thin';
-  --roboto-ThinItalic: 'Roboto-ThinItalic';
+  --roboto-light: 'Roboto-Light';
+  --roboto-lightItalic: 'Roboto-LightItalic';
+  --roboto-medium: 'Roboto-Medium';
+  --roboto-mediumItalic: 'Roboto-MediumItalic';
+  --roboto-regular: 'Roboto-Regular';
+  --roboto-regularItalic: 'Roboto-RegularItalic';
+  --roboto-thin: 'Roboto-Thin';
+  --roboto-thinItalic: 'Roboto-ThinItalic';
 
   /*Variable Define for bg-Color, Button bg Color, Text-Color, Text-hover color,*/
   --bright-orange: #fd5f00;

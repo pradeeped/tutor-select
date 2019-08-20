@@ -13,9 +13,9 @@
 
 <!--CSS for carousel-->
 <link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/lightbox.min.css" rel="stylesheet">
 <link href="css/owl.theme.default.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
-
 
 </head>
 <body>
@@ -85,11 +85,210 @@
                         <!-- steps active section end -->
 
                         <!-- step 1 form start -->
-                        <h3 class="step1-heading-global">Tutor’s Basic Information</h3>
+                        <form>
+                            <!-- tutor basic inform form start -->
+                            <h3 class="step1-heading-global">Tutor’s Basic Information</h3>
+                            <div class="row">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-8">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="registration-label" for="first_name">First Name</label>
+                                                <input type="text" class="form-control inputField" id="first_name" placeholder="First Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="registration-label" for="mobile">Mobile Number </label>
+                                                <input type="tel" class="form-control inputField" id="mobile" placeholder="Mobile Number ">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="registration-label" for="mobile">Date of Birth</label>
+                                                <input type="date" class="form-control inputField" id="mobile" placeholder="Mobile Number ">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="registration-label" for="gender">Gender</label>
+                                                <select name="" id="" class="form-control inputField selectInput-cls">
+                                                    <option value="Male">Male</option>
+                                                    <option value="Female">Female</option>
+                                                    <option value="Other">Other</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                        
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label class="registration-label" for="emailid">Email Id</label>
+                                        <input type="text" class="form-control inputField" id="emailid" placeholder="Email Id">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label class="registration-label" for="set_password">Set Password</label>
+                                        <input type="password" class="form-control inputField" id="set_password" placeholder="Set Password">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label class="registration-label" for="re_password">Retype Password</label>
+                                        <input type="password" class="form-control inputField" id="re_password" placeholder="Set Password">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <label class="registration-label" for="address">Address</label>
+                                        <textarea name="" id="address" rows="3" class="form-control inputField" placeholder="Address"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label class="registration-label" for="pincode">Pincode</label>
+                                        <input type="text" class="form-control inputField" id="pincode" placeholder="Pincode">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label class="registration-label" for="country">Country</label>
+                                        <select name="" id="" class="form-control inputField selectInput-cls">
+                                            <option value="">Select</option>
+                                            <option value="">India</option>
+                                            <option value="">Australia</option>
+                                            <option value="">Nepal</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label class="registration-label" for="state">State</label>
+                                        <select name="" id="" class="form-control inputField selectInput-cls">
+                                            <option value="">Select</option>
+                                            <option value=""></option>
+                                            <option value=""></option>
+                                            <option value=""></option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label class="registration-label" for="city">City</label>
+                                        <select name="" id="" class="form-control inputField selectInput-cls">
+                                            <option value="">Select</option>
+                                            <option value=""></option>
+                                            <option value=""></option>
+                                            <option value=""></option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- tutor basic inform form end -->
+
+                            <!-- which subject do you teach form start -->
+                            <h3 class="step1-heading-global">Your Subject</h3>
+                            <!-- which subject do you teach form end -->
+
+                            <!-- educational details form start -->
+                            <h3 class="step1-heading-global">Education Details</h3>     
+                            <div class="education_detailscls">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="registration-label" for="education">Education</label>
+                                            <select name="" id="" class="form-control inputField selectInput-cls">
+                                                <option value="">Select types of Education</option>
+                                                <option value=""></option>
+                                                <option value=""></option>
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="registration-label" for="Course">Course/Degree</label>
+                                            <select name="" id="" class="form-control inputField selectInput-cls">
+                                                <option value="">Select Course/Degree</option>
+                                                <option value=""></option>
+                                                <option value=""></option>
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="registration-label" for="Specilization">Specilization</label>
+                                            <select name="" id="" class="form-control inputField selectInput-cls">
+                                                <option value="">Select Specilization</option>
+                                                <option value=""></option>
+                                                <option value=""></option>
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="registration-label" for="Years">Years of Completion</label>
+                                            <select name="" id="" class="form-control inputField selectInput-cls">
+                                                <option value="">Select Years</option>
+                                                <option value=""></option>
+                                                <option value=""></option>
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="registration-label" for="University">University</label>
+                                            <select name="" id="" class="form-control inputField selectInput-cls">
+                                                <option value="">Select University</option>
+                                                <option value=""></option>
+                                                <option value=""></option>
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="registration-label" for="Years">Course Type</label>
+                                            <select name="" id="" class="form-control inputField selectInput-cls">
+                                                <option value="">Select Course Type</option>
+                                                <option value=""></option>
+                                                <option value=""></option>
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="registration-label" for="Years">Upload Degree</label>
+                                            <label class="upload-degreebtn"> Upload Degree
+                                                <input type="file" id="files" name="files[]" multiple/>
+                                            </label> 
+                                            <!-- <button type="button" id="files" name="files[]" multiple>Upload Degree</button> -->
+                                        </div>
+                                    </div>
 
 
+                                </div>
+                            </div> 
+                            <a href="#" class="cta-addmore"> <i class="fa fa-plus-square" aria-hidden="true"></i> Add More</a>
+                            <!-- educational details form end -->
+                            <div class="pull-right mt-4">
+                                <button type="button" class="btn cta-primary">Save & Next</button>
+                            </div>                            
+
+                        </form>
                         <!-- step 1 form end -->
 
                         
@@ -100,9 +299,7 @@
             </div>
         </div>
     </section>
-
     <!-- Create profile step 1 section end here -->
-
 
     <!--Footer CopyRight-->
     <section class="footer-copyright navfooter">
@@ -122,17 +319,43 @@
     <!--Back To Top-->
     <div class="backtotop"><i class="fa fa-angle-up"></i> up</div>
     <!--Back To Top END-->
-
 </div>
-
-
-
-
 <!--js-->
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/local.js"></script>
+
+<script>
+$(document).ready(function() {
+  if (window.File && window.FileList && window.FileReader) {
+    $("#files").on("change", function(e) {
+      var files = e.target.files,
+        filesLength = files.length;
+      for (var i = 0; i < filesLength; i++) {
+        var f = files[i]
+        var fileReader = new FileReader();
+        fileReader.onload = (function(e) {
+          var file = e.target;
+          $("<span class=\"pip\">" +
+            "<a class=\"imageThumb\" href=\"" + e.target.result + "\" title=\"" + file.name + "\" data-lightbox=\"" + file.name + "\">" +
+            "<img class=\"imageThumb\" src=\"" + e.target.result + "\" title=\"" + file.name + "\"/>" + "</a>" +
+            "<br/><span class=\"remove\"><i class=\"fa fa-times\" aria-hidden=\"true\"></i></span>" +
+            "</span>").insertAfter(".upload-degreebtn");
+          $(".remove").click(function(){
+            $(this).parent(".pip").remove();
+          });
+        });
+        fileReader.readAsDataURL(f);
+      }
+    });
+  } else {
+    alert("Your browser doesn't support to File API")
+  }
+});
 </script>
+
+<script src="js/lightbox.min.js"></script>
+
 </body>
 </html>
