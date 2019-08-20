@@ -285,4 +285,29 @@ section.landing-tutor.registration-tutor-menu.createprofile-stepcls{
     font-family: var(--roboto-Bold);
     font-size: 39px;
 }
+
+.steps-cls{
+    width: 100%;
+}
+
+.steps-cls span{
+    width: 122px;
+    height: 10px;
+    margin-right: 9px;
+    background: #d8d8d8;
+    border-radius: 4px;
+    display: inline-flex;
+}
+
+.steps-cls span.active{
+    background: #00a3fd;
+}
+
+.step1-heading-global{
+    font-size: var(--fontfor-average);
+    color: var(--black);
+    padding-top: 28px;
+    padding-bottom: 20px;
+    font-family: var(--roboto-Bold);
+}
 /* create profile step 1 end */
