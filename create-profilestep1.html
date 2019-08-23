@@ -48,7 +48,7 @@
         <div class="container">
             <div class="row">
                 <!-- left image and text part start -->
-                <div class="col-md-4">
+                <div class="col-md-4 leftside-createprofilestep1">
                     <article>
                         <figure>
                             <img src="assets/tutor-icon.png"
@@ -67,7 +67,7 @@
                 <!-- right form part start -->
                 <div class="col-md-8">
                     <section>
-                        <div class="alert alert-success alert-dismissible custom-alert fade show" role="alert">
+                        <div class="alert alert-success custom-alertcls alert-dismissible custom-alert fade show" role="alert">
                             <span class="alert-text">Thank you for Registring with us. Please complete your profile</span>
                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                 <span aria-hidden="true">×</span>
@@ -88,8 +88,24 @@
                         <form>
                             <!-- tutor basic inform form start -->
                             <h3 class="step1-heading-global">Tutor’s Basic Information</h3>
-                            <div class="row">
-                                <div class="col-md-4"></div>
+                            <div class="row marginbottom-36">
+                                <div class="col-md-4">
+                                    <div class="profile_uploadclsmain">
+                                        <div class="profile_imageOval">
+                                            <span>
+                                                <img 
+                                                    class="profile-pic" 
+                                                    src="assets/usericon.jpg">
+                                            </span>
+                                        </div>
+                                        <div class="p-image">
+                                            <a id="profile-upload" href="#" class="btn cta-primary">Upload Profile Picture</a>
+                                            <input class="file-upload" type="file" accept="image/*"/>
+                                        </div>
+                                        
+                                        <p>Please upload jpg, png or gif. </p>
+                                    </div>
+                                </div>
                                 <div class="col-md-8">
                                     <div class="row">
                                         <div class="col-md-6">
@@ -193,10 +209,124 @@
 
                             <!-- which subject do you teach form start -->
                             <h3 class="step1-heading-global">Your Subject</h3>
+                            <div class="yourdetails-section">
+                                    <div class="form-group row">
+                                        <label for="teachsubject" class="col-md-4 col-form-label registration-label subject-teachml">
+                                            Which subjects do you teach
+                                        </label>
+                                        <div class="col-md-6">
+                                            <input type="text" class="form-control" id="teachsubject" placeholder="Enter subject name">
+                                        </div>
+                                        
+                                    </div>
+                                <div class="chip-part-yourdetails">
+                                    <div id="lg-Chips"></div>
+                                </div>
+                            </div>
                             <!-- which subject do you teach form end -->
 
                             <!-- educational details form start -->
-                            <h3 class="step1-heading-global">Education Details</h3>     
+                            <h3 class="step1-heading-global">Education Details</h3>
+                            <div class="input_fields_wrap">   
+                                <div class="education_detailscls">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="registration-label" for="education">Education</label>
+                                                <select name="" id="" class="form-control inputField selectInput-cls">
+                                                    <option value="">Select types of Education</option>
+                                                    <option value=""></option>
+                                                    <option value=""></option>
+                                                    <option value=""></option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="registration-label" for="Course">Course/Degree</label>
+                                                <select name="" id="" class="form-control inputField selectInput-cls">
+                                                    <option value="">Select Course/Degree</option>
+                                                    <option value=""></option>
+                                                    <option value=""></option>
+                                                    <option value=""></option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="registration-label" for="Specilization">Specilization</label>
+                                                <select name="" id="" class="form-control inputField selectInput-cls">
+                                                    <option value="">Select Specilization</option>
+                                                    <option value=""></option>
+                                                    <option value=""></option>
+                                                    <option value=""></option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="registration-label" for="Years">Years of Completion</label>
+                                                <select name="" id="" class="form-control inputField selectInput-cls">
+                                                    <option value="">Select Years</option>
+                                                    <option value=""></option>
+                                                    <option value=""></option>
+                                                    <option value=""></option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="registration-label" for="University">University</label>
+                                                <select name="" id="" class="form-control inputField selectInput-cls">
+                                                    <option value="">Select University</option>
+                                                    <option value=""></option>
+                                                    <option value=""></option>
+                                                    <option value=""></option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="registration-label" for="Years">Course Type</label>
+                                                <select name="" id="" class="form-control inputField selectInput-cls">
+                                                    <option value="">Select Course Type</option>
+                                                    <option value=""></option>
+                                                    <option value=""></option>
+                                                    <option value=""></option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="registration-label" for="Years">Upload Degree</label>
+                                                <label class="upload-degreebtn"> Upload Degree
+                                                    <input type="file" id="files" name="files[]" multiple/>
+                                                </label> 
+                                                <!-- <button type="button" id="files" name="files[]" multiple>Upload Degree</button> -->
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div> 
+                            
+                            
+                            <a href="#" class="cta-addmore"> <i class="fa fa-plus-square" aria-hidden="true"></i> Add More</a>
+                            <!-- educational details form end -->
+                            <div class="pull-right mt-4">
+                                <button type="button" class="btn cta-primary">Save & Next</button>
+                            </div>                            
+
+                        </form>
+                        <!-- step 1 form end -->
+
+                        <!-- copy div -->
+                        <div class="copy hide">
                             <div class="education_detailscls">
                                 <div class="row">
                                     <div class="col-md-6">
@@ -282,14 +412,9 @@
 
                                 </div>
                             </div> 
-                            <a href="#" class="cta-addmore"> <i class="fa fa-plus-square" aria-hidden="true"></i> Add More</a>
-                            <!-- educational details form end -->
-                            <div class="pull-right mt-4">
-                                <button type="button" class="btn cta-primary">Save & Next</button>
-                            </div>                            
-
-                        </form>
-                        <!-- step 1 form end -->
+                            <a href="#" class="remove" style="color: #000;"> <i class="fa fa-plus-square" aria-hidden="true"></i> Remove</a>
+                        </div>
+                        <!-- copy div -->
 
                         
                         
@@ -305,13 +430,16 @@
     <section class="footer-copyright navfooter">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-xs-12">Copyright &copy; 2018 Gyanum.com, All rights reserved.</div>
-                <div class="col-md-6 col-xs-12 text-right">
+                <div class="col-md-6 col-xs-12 text-left">
                     <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms Conditions</a></li>
+                        <li><a href="#">V-Store</a></li>
+                        <li><a href="#">Instant Doubt</a></li>
                     </ul>
                 </div>
+                <div class="col-md-6 col-xs-12 text-right">
+                    Copyright © 2018 Gyanum.com, All rights reserved.
+                </div>
+                
             </div>
         </div>
     </section>
@@ -325,8 +453,54 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/local.js"></script>
+<script src="js/chip.js"></script>
 
 <script>
+
+$(document).ready(function() {    
+    var readURL = function(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('.profile-pic').attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+
+    $(".file-upload").on('change', function(){
+        readURL(this);
+    });
+
+    $("#profile-upload").on('click', function() {
+    $(".file-upload").click();
+    $("#profile-upload").text('Change Profile Picture').removeClass('cta-primary').addClass('cta-default').addClass('btnSignup');
+    });
+});
+
+$(document).ready(function() {
+	var max_fields      = 10;
+	var wrapper   		= $(".input_fields_wrap"); 
+	var add_button      = $(".cta-addmore");
+	
+	var x = 1; 
+	$(add_button).click(function(e){
+		e.preventDefault();
+		if(x < max_fields){ //max input box allowed
+			x++; //text box increment
+			$(wrapper).append('<div class="education_detailscls copy"> <div class="row"> <div class="col-md-6"> <div class="form-group"> <label class="registration-label" for="education">Education</label> <select name="" id="" class="form-control inputField selectInput-cls"> <option value="">Select types of Education</option> <option value=""></option> <option value=""></option> <option value=""></option> </select> </div></div><div class="col-md-6"> <div class="form-group"> <label class="registration-label" for="Course">Course/Degree</label> <select name="" id="" class="form-control inputField selectInput-cls"> <option value="">Select Course/Degree</option> <option value=""></option> <option value=""></option> <option value=""></option> </select> </div></div><div class="col-md-6"> <div class="form-group"> <label class="registration-label" for="Specilization">Specilization</label> <select name="" id="" class="form-control inputField selectInput-cls"> <option value="">Select Specilization</option> <option value=""></option> <option value=""></option> <option value=""></option> </select> </div></div><div class="col-md-6"> <div class="form-group"> <label class="registration-label" for="Years">Years of Completion</label> <select name="" id="" class="form-control inputField selectInput-cls"> <option value="">Select Years</option> <option value=""></option> <option value=""></option> <option value=""></option> </select> </div></div><div class="col-md-6"> <div class="form-group"> <label class="registration-label" for="University">University</label> <select name="" id="" class="form-control inputField selectInput-cls"> <option value="">Select University</option> <option value=""></option> <option value=""></option> <option value=""></option> </select> </div></div><div class="col-md-6"> <div class="form-group"> <label class="registration-label" for="Years">Course Type</label> <select name="" id="" class="form-control inputField selectInput-cls"> <option value="">Select Course Type</option> <option value=""></option> <option value=""></option> <option value=""></option> </select> </div></div><div class="col-md-6"> <div class="form-group"> <label class="registration-label" for="Years">Upload Degree</label> <label class="upload-degreebtn"> Upload Degree <input type="file" id="files" name="files[]" multiple/> </label> </div></div></div><a href="#" class="remove_field"><i class="fa fa-times" aria-hidden="true"></i></a></div>');
+		}
+	});
+	
+	$(wrapper).on("click",".remove_field", function(e){
+        e.preventDefault(); 
+        $(this).parent('div.copy').remove(); x--;
+	})
+});
+
 $(document).ready(function() {
   if (window.File && window.FileList && window.FileReader) {
     $("#files").on("change", function(e) {
@@ -352,6 +526,7 @@ $(document).ready(function() {
   } else {
     alert("Your browser doesn't support to File API")
   }
+
 });
 </script>
 

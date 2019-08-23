@@ -153,6 +153,16 @@ a.headertext-donthaveact{display: none}
 .forgetpass-btnsec .registernow-btn {width: auto}
 /* ends */
 
+/* create profile step 1 css */
+.leftside-createprofilestep1{
+  display: none;
+}
+.steps-cls span{width:21%}
+.profile_uploadclsmain{margin-bottom: 20px;}
+.row.marginbottom-36{margin-bottom: 10px;}
+.upload-degreebtn{padding: 12px 50px;}
+/* create profile step 1 css */
+
 
 }
 
